@@ -1,0 +1,783 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://ibmm.ru/catalog/view/theme/oct_remarket/stylesheet/main.css">
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+<body>
+
+<nav id="top" class="top-nav d-none d-lg-block">
+    <div class="container d-flex justify-content-between">
+        <ul class="top-nav-info-list list-unstyled d-flex align-items-center text-uppercase">
+            <li><img loading="lazy" src="https://ibmm.ru/catalog/view/theme/oct_remarket/img/price.svg" alt="Прайс-лист" height="14" width="13"> <a href="/price" title="Прайс-лист"></a><a href="/price">Прайс-лист</a></li>
+            <li><img loading="lazy" src="https://ibmm.ru/catalog/view/theme/oct_remarket/img/calc.svg" alt="Майнинг калькулятор" height="14" width="13">
+                <a href="/cryptocalc" title="Майнинг калькулятор"></a><a href="/cryptocalc">Майнинг калькулятор</a>
+            </li>
+            <li><img loading="lazy" src="https://ibmm.ru/catalog/view/theme/oct_remarket/img/convert.svg" alt="Конвертер хешрейта" height="14" width="14"> <a href="/hashrate-converter" title="Конвертер хешрейта"></a><a href="/hashrate-converter">Конвертер хешрейта</a></li>
+        </ul>
+        <div class="rm-header-mail">
+            <img loading="lazy" src="https://ibmm.ru/catalog/view/theme/oct_remarket/img/mail-header.svg" alt="Почта" height="11" width="17">         <a href="mailto:sales@ibmm.ru">sales@ibmm.ru</a>       </div>
+
+
+
+        <div class="rm-header-mail">
+            <svg width="17" height="17" viewBox="0 0 33 32" fill="none" class="wf-btn-callback-gtm" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2615 21.2377C14.8126 24.7888 18.7009 26.3159 23.0575 25.9449C23.9157 25.8718 24.7426 25.4334 25.4278 24.7482C26.063 24.1129 26.4347 23.261 26.4682 22.3632L26.4943 21.6644L20.3734 20.1869L19.7004 21.5329C19.4498 22.0341 18.8569 22.2595 18.3366 22.0514C14.7383 20.6121 11.8872 17.7609 10.4478 14.1626C10.2397 13.6424 10.4652 13.0494 10.9664 12.7988L12.3123 12.1258L10.8349 6.00492L10.136 6.03101C9.23825 6.06453 8.38631 6.43618 7.75104 7.07146C7.06584 7.75666 6.62746 8.58357 6.55437 9.44177C6.18334 13.7983 7.71042 17.6866 11.2615 21.2377ZM23.2272 27.9376C18.2029 28.3655 13.7547 26.5594 9.8473 22.6519C5.93985 18.7445 4.13368 14.2963 4.56159 9.27205C4.68338 7.84201 5.39814 6.59593 6.33682 5.65725C7.32892 4.66515 8.65937 4.08475 10.0614 4.0324L10.8946 4.00129C11.7675 3.9687 12.5425 4.55578 12.7475 5.40492L14.2565 11.6566C14.475 12.5619 14.0398 13.4982 13.2068 13.9147L12.6465 14.1948C13.8399 16.6646 15.8346 18.6593 18.3044 19.8527L18.5845 19.2925C19.001 18.4595 19.9374 18.0242 20.8427 18.2427L27.0943 19.7517C27.9435 19.9567 28.5305 20.7317 28.4979 21.6046L28.4668 22.4378C28.4145 23.8399 27.8341 25.1703 26.842 26.1624C25.9033 27.1011 24.6572 27.8159 23.2272 27.9376Z" fill="#A6ABB9"></path>
+            </svg>          <a href="tel:+74996817182">8 (499) 681-71-82</a>       </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="top-nav-account-links list-unstyled d-flex">
+            <div class="rm-header-address">
+                <img loading="lazy" src="https://ibmm.ru/catalog/view/theme/oct_remarket/img/geo-header.svg" alt="Адрес" height="12,5" width="9.22">
+                <div class="rm-dropdown-box w-100">
+                    <div class="rm-dropdown-toggle">
+                        <span class="rm-header-address-link">МКАД, 44 км., дом 1</span>
+                    </div>
+                    <div class="rm-dropdown">
+                        <div id="rm_header_locations" class="rm-dropdown-inner">
+                            <div class="rm-header-location-inner">
+                                <div class="rm-header-location active">
+                                    <div class="d-flex align-items-center">
+                                        <div class="rm-header-location-address">МКАД, 44 км., дом 1</div>
+                                    </div>
+                                    <div class="rm-header-location-collapsed">
+                                        <div class="rm-header-location-phones">
+                                            <span>Телефоны:</span>                         <a href="tel:+74996817182">8 (499) 681-71-82</a>                       </div>
+                                        <div class="rm-header-location-shedule">
+                                                <span>С 10:00 до 19:00
+</span>
+                                            <br>                         <span>Без выходных</span>
+                                            <br>                       </div>
+                                        <div class="rm-header-location-map">
+                                            <div id="oct-contact-map" class=""><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9009.349693162803!2d37.46541!3d55.6309439!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcc6c1d8116d9f00b!2sIBMM!5e0!3m2!1sru!2sru!4v1644505818885!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                                            <script>
+                                                var width = document.documentElement.clientWidth;
+
+                                                if (width > 992) {
+                                                    $('.rm-dropdown-toggle').on('mouseenter mouseleave', function () {
+                                                        octShowMap('<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9009.349693162803!2d37.46541!3d55.6309439!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcc6c1d8116d9f00b!2sIBMM!5e0!3m2!1sru!2sru!4v1644505818885!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>', '#oct-contact-map');
+                                                    });
+                                                } else {
+                                                    $('.rm-dropdown-toggle').on('click', function () {
+                                                        octShowMap('<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9009.349693162803!2d37.46541!3d55.6309439!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcc6c1d8116d9f00b!2sIBMM!5e0!3m2!1sru!2sru!4v1644505818885!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>', '#oct-contact-map');
+                                                    });
+                                                }
+                                            </script>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center rm-header-location-contacts-btn">
+                                <a href="https://ibmm.ru/index.php?route=information/contact" class="rm-btn secondary">
+                                    <span class="rm-btn-text">Перейти в контакты</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="soc-icons-cust d-flex align-items-center">
+            <a href="https://t.me/ibmmru">
+                <img loading="lazy" src="https://ibmm.ru/image/telegram.svg" height="20" width="20" alt="telegram IBMM">
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=+79060469278">
+                <img loading="lazy" src="https://ibmm.ru/image/icons8-whatsapp (1).svg" height="22" width="22" alt="whatsapp IBMM">
+            </a>
+            <a href="https://www.tiktok.com/@ibmm.ru">
+                <img loading="lazy" src="https://ibmm.ru/image/tiktok-color-off.svg" height="23" width="23" alt="tiktok IBMM">
+            </a>
+            <a href="https://vk.com/ibmmru">
+                <img loading="lazy" src="https://ibmm.ru/image/icons8-vk.svg" height="25" width="25" alt="vk IBMM">
+            </a>
+            <a href="https://www.youtube.com/channel/UCYjDWx-4uZGU-P8BFFe-Q1g">
+                <img loading="lazy" src="https://ibmm.ru/image/youtube-color-off.svg" height="25" width="25" alt="youtube IBMM">
+            </a>
+        </div>
+    </div>
+</nav>
+
+<header>
+
+    <div class="container-fluid container-sm container">
+        <div class="row align-items-center flex-column flex-md-row header-row">
+            <div class="col-md-3 col-lg-2 order-0">
+                <div id="logo" class="d-flex align-items-center">
+                        <span><img loading="lazy" src="https://ibmm.ru/image/catalog/ibmm-logo--black.svg" title="IBMM" alt="IBMM" class="img-fluid hidden-xs" width="300" height="64">
+            </span>           </div>
+            </div>
+            <div class="col-lg-1 col-xl-3 d-none d-lg-block order-1">
+                <button id="menu_toggle_button" type="button" aria-label="Menu" class="rm-btn primary d-flex align-items-center justify-content-between">
+            <span class="rm-btn-icon">
+              <img loading="lazy" class="catalog-icon" src="https://ibmm.ru/catalog/view/theme/oct_remarket/img/menu.svg" alt="IBMM" width="14" height="14">
+              <img loading="lazy" class="close-icon" src="https://ibmm.ru/catalog/view/theme/oct_remarket/img/sprite.svg#include--close-catalog-icon" alt="IBMM" width="14" height="14">
+            </span>
+                    <span class="rm-btn-text">Каталог товаров</span>
+                </button>
+            </div>
+            <div class="col-12 col-md-6 col-lg-5 order-3 order-md-2">
+                <div id="search" class="rm-search">
+                    <input id="input_search" type="text" name="search" value="" placeholder="Найдите свои товары здесь" class="w-100 h-100">
+                    <button type="button" aria-label="Search" id="rm-search-button" class="btn-search d-flex align-items-center justify-content-center"><img loading="lazy" src="https://ibmm.ru/catalog/view/theme/oct_remarket/img/sprite.svg#include--header-search-icon" alt="" width="20" height="20"></button>
+                    <div id="rm_livesearch_close" onclick="clearLiveSearch();" class="d-flex align-items-center justify-content-center"><img loading="lazy" src="https://ibmm.ru/catalog/view/theme/oct_remarket/img/sprite.svg#include--livesearch-close-icon" alt="" width="25" height="25"></div>
+                    <div id="rm_livesearch"></div>
+                </div>
+
+                <script>
+                    function clearLiveSearch() {
+                        $('#rm_livesearch_close').removeClass('visible');
+                        $('#rm_overlay').removeClass('active');
+                        $('#rm_livesearch').removeClass('expanded');
+                        $('#rm_livesearch').html('');
+                        $('#input_search').val('').removeClass('active');
+                    }
+
+                    $(document).ready(function() {
+                        let timer, delay = 500;
+
+                        $('#input_search').keyup(function(event) {
+                            switch(event.keyCode) {
+                                case 37:
+                                case 39:
+                                case 38:
+                                case 40:
+                                    return;
+                                case 27:
+                                    clearLiveSearch();
+                                    return;
+                            }
+
+                            clearTimeout(timer);
+
+                            timer = setTimeout(function() {
+                                let value = $('#search input[name=\'search\']').val();
+
+                                if (value.length >= 2) {
+                                    let key = encodeURIComponent(value);
+                                    octsearch.search(key, 'desktop');
+                                } else if (value.length === 0) {
+                                    clearLiveSearch();
+                                }
+
+                            }, delay );
+                        });
+                    });
+
+                    var octsearch = {
+                        'search': function(key, type) {
+                            $.ajax({
+                                url: 'index.php?route=octemplates/module/oct_live_search',
+                                type: 'post',
+                                data: 'key=' + key,
+                                dataType: 'html',
+                                cache: false,
+                                success: function(data) {
+                                    $('#rm_livesearch').html(data).addClass('expanded');
+
+                                    if(data = data.match(/livesearch/g)) {
+                                        $('#rm_livesearch_close').addClass('visible');
+                                        $('#input_search, #rm_overlay').addClass('active');
+                                        $('#rm_overlay').addClass('transparent');
+
+                                    } else {
+                                        $('#rm_livesearch_close').removeClass('visible');
+                                        $('#input_search, #rm_overlay').removeClass('active');
+                                    }
+                                }
+                            });
+                        }
+                    }
+                </script>
+
+            </div>
+            <div class="d-none d-md-flex justify-content-center order-2 order-md-3">
+                <div class="rm-header-phones d-flex align-items-center">
+
+                    <div class="rm-header-phones-list">
+
+                        <a href="https://api.whatsapp.com/send?phone=79060469278" class="rm-header-phones-list__link">
+                            <svg width="22" height="22" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.30014 16.0063C6.30014 10.5893 10.6856 6.20001 16.0927 6.20001C21.4997 6.20001 25.8852 10.5893 25.8852 16.0063C25.8852 21.4234 21.4997 25.8127 16.0927 25.8127C14.3029 25.8127 12.628 25.3327 11.1861 24.495L10.8256 24.2855L10.4231 24.3942L6.72333 25.3928L7.72779 21.705L7.83787 21.3009L7.62707 20.9389C6.78368 19.4908 6.30014 17.8067 6.30014 16.0063ZM16.0927 4.20001C9.57863 4.20001 4.30014 9.48709 4.30014 16.0063C4.30014 18.0175 4.80323 19.9137 5.69086 21.5731L4.33529 26.5499L3.87695 28.2326L5.56072 27.7781L10.5522 26.4309C12.2048 27.313 14.0917 27.8127 16.0927 27.8127C22.6067 27.8127 27.8852 22.5256 27.8852 16.0063C27.8852 9.48709 22.6067 4.20001 16.0927 4.20001ZM21.4981 18.447C21.1991 18.298 19.7311 17.575 19.4581 17.476C19.1841 17.376 18.9851 17.327 18.7861 17.625C18.5871 17.924 18.0151 18.596 17.8411 18.795C17.6671 18.994 17.4931 19.019 17.1941 18.87C17.1458 18.8459 17.0801 18.8175 16.9992 18.7824C16.5795 18.6005 15.7489 18.2406 14.7931 17.388C13.9051 16.597 13.3061 15.619 13.1321 15.32C12.9581 15.021 13.1131 14.86 13.2631 14.711C13.3526 14.6215 13.4559 14.4959 13.559 14.3705C13.6104 14.3082 13.6616 14.2458 13.7111 14.188C13.8372 14.0407 13.8924 13.9286 13.967 13.7769C13.9806 13.7494 13.9948 13.7206 14.0101 13.69C14.1101 13.491 14.0601 13.316 13.9851 13.167C13.9356 13.0687 13.6589 12.3954 13.4049 11.7771C13.2738 11.4583 13.1488 11.1541 13.0641 10.951C12.8504 10.4371 12.6328 10.4386 12.4589 10.4398C12.4358 10.4399 12.4135 10.4401 12.3921 10.439C12.2181 10.43 12.0191 10.429 11.8201 10.429C11.6211 10.429 11.2971 10.504 11.0241 10.803C11.0062 10.8226 10.9862 10.844 10.9644 10.8674C10.6532 11.1999 9.97913 11.9203 9.97913 13.293C9.97913 14.7534 11.0366 16.1653 11.1954 16.3774L11.1981 16.381C11.2079 16.394 11.2253 16.419 11.2503 16.4548C11.6072 16.9666 13.4989 19.6795 16.2991 20.888C17.0111 21.195 17.5681 21.379 18.0011 21.517C18.7161 21.744 19.3671 21.712 19.8821 21.635C20.4561 21.549 21.6491 20.913 21.8971 20.216C22.1461 19.519 22.1461 18.921 22.0711 18.797C22.0103 18.6948 21.8679 18.6262 21.6567 18.5244C21.6075 18.5007 21.5546 18.4752 21.4981 18.447Z" fill="#24292F"></path>
+                            </svg>
+                            <span>WhatsApp</span>
+                        </a>
+                        <a onclick="octPopupCallPhone();" class="rm-header-phones-list__link">
+                            <svg width="22" height="22" viewBox="0 0 33 32" fill="none" class="wf-btn-callback-gtm" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.2615 21.2377C14.8126 24.7888 18.7009 26.3159 23.0575 25.9449C23.9157 25.8718 24.7426 25.4334 25.4278 24.7482C26.063 24.1129 26.4347 23.261 26.4682 22.3632L26.4943 21.6644L20.3734 20.1869L19.7004 21.5329C19.4498 22.0341 18.8569 22.2595 18.3366 22.0514C14.7383 20.6121 11.8872 17.7609 10.4478 14.1626C10.2397 13.6424 10.4652 13.0494 10.9664 12.7988L12.3123 12.1258L10.8349 6.00492L10.136 6.03101C9.23825 6.06453 8.38631 6.43618 7.75104 7.07146C7.06584 7.75666 6.62746 8.58357 6.55437 9.44177C6.18334 13.7983 7.71042 17.6866 11.2615 21.2377ZM23.2272 27.9376C18.2029 28.3655 13.7547 26.5594 9.8473 22.6519C5.93985 18.7445 4.13368 14.2963 4.56159 9.27205C4.68338 7.84201 5.39814 6.59593 6.33682 5.65725C7.32892 4.66515 8.65937 4.08475 10.0614 4.0324L10.8946 4.00129C11.7675 3.9687 12.5425 4.55578 12.7475 5.40492L14.2565 11.6566C14.475 12.5619 14.0398 13.4982 13.2068 13.9147L12.6465 14.1948C13.8399 16.6646 15.8346 18.6593 18.3044 19.8527L18.5845 19.2925C19.001 18.4595 19.9374 18.0242 20.8427 18.2427L27.0943 19.7517C27.9435 19.9567 28.5305 20.7317 28.4979 21.6046L28.4668 22.4378C28.4145 23.8399 27.8341 25.1703 26.842 26.1624C25.9033 27.1011 24.6572 27.8159 23.2272 27.9376Z" fill="#24292F"></path>
+                            </svg><span>Запросить звонок</span>
+
+                        </a>
+
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                    <!-- <div class="rm-header-phones-list">
+                                    <a href="tel:+7 (499) 213-48-31"
+                        class="rm-header-phones-list-item">+7 (499) 213-48-31</a>                <span class="rm-header-phones-list-link blue-link rm-phone-link" onclick="octPopupCallPhone();">Обратный звонок</span>             </div> -->
+                </div>
+            </div>
+
+            <div id="rm-menu" class="rm-menu custom-menu">
+                <nav class="custom-menu-nav">
+                    <div class="custom-menu-listing miner">
+                        <div class="menu-title top_link">
+                            <a href="https://ibmm.ru/katalog" title="Купить оборудование для майнинга">Оборудование для майнинга</a>
+                        </div>
+                        <ul class="list-unstyled custom-menu-list">
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/bitmain" title="Майнеры Antimainer купить">Bitmain Antminer</a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/canaan" title="Майнеры Avalon купить">
+                                    Canaan Avalon
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/innosilicon" title="Майнеры Innosilicon купить">
+                                    Innosilicon
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/whatsminer" title="Майнеры Whatsminer купить">
+                                    Whatsminer
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/goldshell" title="Майнеры Goldshell купить">
+                                    Goldshell
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/jasminer" title="Майнеры Jasminer купить">
+                                    Jasminer
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="custom-menu-listing">
+                        <div class="menu-title">
+                            Топ майнеров
+                        </div>
+                        <ul class="list-unstyled custom-menu-list">
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/bitmain/antminer-s19" title="Antminer S19 купить">
+                                    Antminer S19
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/whatsminer/whatsminer-m30s" title="Antminer Whatsminer M30s+ купить">
+                                    Whatsminer M30s+
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/bitmain/antminer-z15" title="Antminer Antminer Z15 купить">
+                                    Antminer Z15
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/bitmain/antminer-s19/antminer-s19-pro-110ths" title="Antminer S19 Pro купить">
+                                    Antminer S19 Pro
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/bitmain/antminer-l7" title="Antminer L7 купить">
+                                    Antminer L7
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="custom-menu-listing custom-menu-list">
+                        <div class="menu-title">
+                            Добыча криптовалюты
+                        </div>
+                        <ul class="list-unstyled custom-menu-list">
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/crypto-btc">
+                                    Майнеры на Bitcoin
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/crypto-eth">
+                                    Майнеры на Etherium Classic
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/algoritm-scrypt">
+                                    Майнеры на Dogecoin и Litecoin
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/crypto-zec">
+                                    Майнеры на Zcash
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/crypto-kda">
+                                    Майнеры на Kadena
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="custom-menu-bottom">
+                    <div class="row">
+                        <ul class="top-nav-info-list list-unstyled d-flex align-items-center text-uppercase">
+
+
+                            <li><img loading="lazy" src="catalog/view/theme/oct_remarket/img/price.svg" alt="Прайс-лист" height="14" width="13"> <a href="/price" title="Прайс-лист"></a><a href="/price">Прайс-лист</a></li>
+                            <li><img loading="lazy" src="catalog/view/theme/oct_remarket/img/calc.svg" alt="Майнинг калькулятор" height="14" width="13">
+                                <a href="/cryptocalc" title="Майнинг калькулятор"></a><a href="/cryptocalc">Майнинг калькулятор</a>
+                            </li>
+                            <li><img loading="lazy" src="catalog/view/theme/oct_remarket/img/convert.svg" alt="Конвертер хешрейта" height="14" width="14"> <a href="/hashrate-converter" title="Конвертер хешрейта"></a><a href="/hashrate-converter">Конвертер хешрейта</a></li><li><svg xmlns="http://www.w3.org/2000/svg" fill="#000000" width="18px" height="18px" viewBox="0 0 64 64">
+
+                            <g id="Outline">
+
+                                <g data-name="Outline" id="Outline-2">
+
+                                    <path d="M34,47a1,1,0,0,0,1-1V43h3a6,6,0,0,0,.184-11.991A5.986,5.986,0,0,0,35,21.137V18a1,1,0,0,0-2,0v3H31V18a1,1,0,0,0-2,0v3H23a1,1,0,0,0,0,2h3V41H23a1,1,0,0,0,0,2h6v3a1,1,0,0,0,2,0V43h2v3A1,1,0,0,0,34,47Zm3.733-20a4,4,0,0,1-4,4H28V23h5.733A4,4,0,0,1,37.733,27ZM28,33H38a4,4,0,0,1,0,8H28Z"></path>
+
+                                    <path d="M32,2A30,30,0,1,0,62,32,30.034,30.034,0,0,0,32,2Zm0,58A28,28,0,1,1,60,32,28.032,28.032,0,0,1,32,60Z"></path>
+
+                                    <path d="M49.655,16.793a3.172,3.172,0,1,0-3.172,3.172,3.137,3.137,0,0,0,1.263-.266A19.994,19.994,0,0,1,22.692,49.707a1,1,0,0,0-.933,1.769,21.986,21.986,0,0,0,27.47-33.124A3.141,3.141,0,0,0,49.655,16.793Zm-4.344,0a1.172,1.172,0,1,1,1.172,1.172A1.172,1.172,0,0,1,45.311,16.793Z"></path>
+
+                                    <path d="M16.793,44.035a3.164,3.164,0,0,0-.692.081A19.779,19.779,0,0,1,12,32,20.023,20.023,0,0,1,32,12a19.811,19.811,0,0,1,8.463,1.874,1,1,0,0,0,.848-1.812A21.989,21.989,0,0,0,14.39,45.16a3.141,3.141,0,0,0-.769,2.047,3.172,3.172,0,1,0,3.172-3.172Zm0,4.344a1.172,1.172,0,1,1,1.172-1.172A1.172,1.172,0,0,1,16.793,48.379Z"></path>
+
+                                </g>
+
+                            </g>
+
+                        </svg> <a href="https://ibmm.ru/cryptocourse" title="Курс криптовалют">Курс криптовалют</a></li>
+                        </ul>
+                        <div class="custom-menu-bottom__right">
+                            <a class="operator_online" tabindex="0" aria-disabled="false" onclick="octPopupCallPhone();"><span>ОБРАТНЫЙ ЗВОНОК</span></a>
+                            <div class="operator_online_avatar">
+
+                                <img loading="lazy" src="https://ibmm.ru/image/cache/catalog/catalog/view/theme/oct_remarket/image/avatar.webp" alt="" class="operator_online_avatar_img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<nav id="nav2" class="bottom-nav d-none d-lg-block ">
+    <div class="container">
+        <div class="row d-flex justify-content-between">
+            <ul class="top-nav-info-list top-nav-info-list-nav2 list-unstyled d-flex align-items-center col-9 col-xl-8">
+                <!-- <li><a title="Купить оборудвание в нашем каталоге" href="/katalog">Оборудование для майнинга</a></li>
+                <li><a title="Купить серверное оборудование в нашем каталоге" href="/servernoe-oborudovanie">Серверное оборудование</a></li>
+                 -->
+
+                <li><a title="Заказать контейнер для майнинга" href="/mining-container">Майнинг контейнер</a></li>
+                <li><a title="Заказать отель для асиков" href="/mining-hotel">Майнинг отель</a></li>
+                <li><a title="Заказать газопоршневая электростанцию" href="/gas-electric-datacenter/">Газопоршневая электростанция</a></li>
+                <li><a title="Новостной портал IBMM" href="/news">Новости</a></li>
+
+                <li><a title="Контакты нашей компаний" href="/contact-us">Контакты</a></li>
+            </ul>
+            <div class="charts col-2 col-xl-2">
+                <a href="/cryptocourse" title="Курсы крипто монет" class="bitcoin chart"><img loading="lazy" src="https://ibmm.ru/catalog/view/theme/oct_remarket/img/btc.svg" alt="Курс биткоина" width="18" height="18">Биткоин: <span id="bitchart">25 771$</span> </a>
+                <script type="text/javascript">
+                    document.addEventListener("DOMContentLoaded",function(){function e(){var t,e;200==this.status&&((t=JSON.parse(this.responseText))[0].price,t[1].price,document.getElementById("bitchart").innerHTML=Math.floor10(t[0].price,0).toString().replace(/\B(?=(\d{3})+(?!\d))/g,e||" ")+"$")}function t(){var t=new XMLHttpRequest;t.onload=e,t.open("GET","https://api.binance.com/api/v3/ticker/price?symbols=%5B%22BTCUSDT%22,%22ETHUSDT%22,%22DOGEUSDT%22,%22LTCUSDT%22,%22ETCUSDT%22,%22KDAUSDT%22%5D"),t.send()}Math.floor10||(Math.floor10=function(t,e){return n="floor",t=t,void 0!==(e=e)&&0!=+e?(t=+t,e=+e,isNaN(t)||"number"!=typeof e||e%1!=0?NaN:(t=t.toString().split("e"),+((t=(t=Math[n](+(t[0]+"e"+(t[1]?+t[1]-e:-e)))).toString().split("e"))[0]+"e"+(t[1]?+t[1]+e:e)))):Math[n](t);var n}),t(),setInterval(t,3600)});
+                </script>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="wrapper">
+        <div class="container-fluid">
+            <div class="block2">
+                <a href="#" class="block2__item1 block2--item">
+                    <div class="block2__itemTitle">
+                        <div class="block2__itemTitle--bold">
+                            Bitmain
+                        </div>
+                        <div class="block2__itemTitle--regular">
+                            Asic майнеры
+                        </div>
+                    </div>
+                    <img src="images/grid/img1.png" alt="" class="block2__item1Img block2__itemImg">
+                </a>
+                <a href="#" class="block2__item2 block2--item">
+                    <div class="block2__itemTitle">
+                        <div class="block2__itemTitle--bold">
+                            Майнинг
+                        </div>
+                        <div class="block2__itemTitle--regular">
+                            пул
+                        </div>
+                    </div>
+                    <img src="images/grid/img2.png" alt="" class="block2__item2Img block2__itemImg">
+                </a>
+                <a href="#" class="block2__item3 block2--item">
+                    <div class="block2__itemTitle block2__itemTitle--black">
+                        <div class="block2__itemTitle--bold">
+                            Майнинг
+                        </div>
+                        <div class="block2__itemTitle--regular">
+                            отель
+                        </div>
+                    </div>
+                    <img src="images/grid/img3.png" alt="" class="block2__item3Img block2__itemImg">
+                </a>
+                <a href="#" class="block2__item4 block2--item">
+                    <div class="block2__itemTitle itemTitle--marginCorrect">
+                        <div class="block2__itemTitle--bold">
+                            Майнеры
+                        </div>
+                        <div class="block2__itemTitle--regular">
+                            оптом
+                        </div>
+                    </div>
+                    <img src="images/grid/img10.png" alt="" class="block2__item4Img block2__itemImg">
+                </a>
+                <a href="#" class="block2__item5 block2--item">
+                    <div class="block2__itemTitle block2__itemTitle--black">
+                        <div class="block2__itemTitle--bold">
+                            Whatsminer
+                        </div>
+                        <div class="block2__itemTitle--regular">
+                            Asic майнеры
+                        </div>
+                    </div>
+                    <img src="images/grid/img4.png" alt="" class="block2__item5Img block2__itemImg">
+                </a>
+                <a href="#" class="block2__item6 block2--item">
+                    <div class="block2__itemTitle">
+                        <div class="block2__itemTitle--bold">
+                            Майнинг
+                        </div>
+                        <div class="block2__itemTitle--regular">
+                            контейнер
+                        </div>
+                    </div>
+                    <img src="images/grid/img5.png" alt="" class="block2__item6Img block2__itemImg">
+                </a>
+                <a href="#" class="block2__item7 block2--item">
+                    <div class="block2__itemTitle">
+                        <div class="block2__itemTitle--bold">
+                            Газопоршневая
+                        </div>
+                        <div class="block2__itemTitle--regular">
+                            электростанция
+                        </div>
+                    </div>
+                    <img src="images/grid/img6.png" alt="" class="block2__item7Img block2__itemImg">
+                </a>
+                <a href="#" class="block2__item8 block2--item">
+                    <div class="block2__itemTitle block2__itemTitle--black itemTitle--marginCorrect">
+                        <div class="block2__itemTitle--bold">
+                            Водоблоки
+                        </div>
+                        <div class="block2__itemTitle--regular">
+                            для майнинга
+                        </div>
+                    </div>
+                    <img src="images/grid/img7.png" alt="" class="block2__item8Img block2__itemImg">
+                </a>
+                <a href="#" class="block2__item9 block2--item">
+                    <div class="block2__itemTitle block2__itemTitle--correctMargin">
+                        <div class="block2__itemTitle--bold">
+                            Блокчейн
+                        </div>
+                        <div class="block2__itemTitle--regular">
+                            разработка
+                        </div>
+                    </div>
+                    <img src="images/grid/img91.png" alt="" class="block2__item91Img block2__itemImg">
+                    <img src="images/grid/img92.png" alt="" class="block2__item92Img block2__itemImg">
+                    <img src="images/grid/img93.png" alt="" class="block2__item93Img block2__itemImg">
+                    <img src="images/grid/img94.png" alt="" class="block2__item94Img block2__itemImg">
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+
+        <div class="rm-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-4">
+                        <div class="footer-logo justify-content-center justify-content-lg-start">
+                            <a href="https://ibmm.ru">
+                                <img loading="lazy" src="https://ibmm.ru/image/catalog/ibmm-logo--white.svg" title="IBMM" alt="IBMM" class="img-fluid" width="300" height="64">
+                            </a>
+                        </div>
+                        <div class="footer-descriptor justify-content-center justify-content-lg-start">
+                            Первый поставщик майнинг оборудования со своим представительством в Китае
+                        </div>
+                        <ul class="list-unstyled footer-contacts">
+                            <li class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                                <img loading="lazy" src="https://ibmm.ru/image/cache/catalog/catalog/view/theme/oct_remarket/img/phone-call.webp" alt="Телефон" width="14" height="14">
+                                <a href="tel:+74996817182" class="footer-telephone">8 (499) 681-71-82</a>
+                            </li>
+                            <li class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                                <img loading="lazy" src="https://ibmm.ru/image/cache/catalog/catalog/view/theme/oct_remarket/img/maps-and-flags.webp" alt="Адрес" width="14" height="14">
+                                <a href="https://ibmm.ru/contact-us">
+                                    <span>Москва, МКАД, 44 км., дом 1</span>
+                                </a>
+                            </li>
+                            <li class="d-flex align-items-center justify-content-center justify-content-lg-start">
+                                <img loading="lazy" src="https://ibmm.ru/image/cache/catalog/catalog/view/theme/oct_remarket/img/mail.webp" alt="Почта" width="14" height="14">               <a href="mailto:sales@ibmm.ru">sales@ibmm.ru</a>             </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-xl-2 footer-links-list-block">
+                        <div class="rm-footer-title">
+                            Компания
+                        </div>
+                        <ul class="footer-links-list list-unstyled footer-list">
+                            <li><a href="/about_us" title="О нас">О нас</a></li>
+                            <li><a href="/delivery" title="Доставка">Доставка</a></li>
+                            <!-- <li class="footer-list-blue"><a href="/#" title="Возможности">Возможности</a></li> -->
+                            <li><a href="/news" title="Новости">Новости</a></li>
+                            <li><a href="/contact-us" title="Связаться с нами">Связаться с нами</a></li>
+                            <li><a href="/sitemap" title="Карта сайта">Карта сайта</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-xl-2 footer-links-list-block">
+                        <div class="rm-footer-title">
+                            Услуги
+                        </div>
+                        <ul class="footer-links-list list-unstyled footer-list">
+                            <li><a href="/katalog" class="footer-list-hot" title="Каталог оборудования">Каталог оборудования</a></li>
+                            <li><a href="/mining-hotel" title="Майнинг отель">Майнинг отель</a></li>
+                            <li><a href="/mining-container" title="Майнинг контейнер">Майнинг контейнер</a></li>
+                            <!-- <li class="footer-list-blue"><a href="/#" title="Для юр лиц">Для юр лиц</a></li> -->
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-xl-2 footer-links-list-block">
+                        <div class="rm-footer-title">
+                            Сервисы
+                        </div>
+                        <ul class="footer-links-list list-unstyled footer-list">
+                            <li><img loading="lazy" src="https://ibmm.ru/image/cache/catalog/catalog/view/theme/oct_remarket/img/convert.webp" alt="Конвертер хешрейта" height="14" width="14"> <a href="/hashrate-converter" title="Конвертер хешрейта">Конвертер хешрейта</a></li>
+                            <li><img loading="lazy" src="https://ibmm.ru/image/cache/catalog/catalog/view/theme/oct_remarket/img/dollar-tag.webp" alt="Прайс-лист" height="14" width="13">
+                                <a href="/price" title="Прайс-лист">Прайс-лист</a>
+                            </li>
+                            <li><img loading="lazy" src="https://ibmm.ru/image/cache/catalog/catalog/view/theme/oct_remarket/img/calculator.webp" alt="Майнинг калькулятор" height="14" width="13"> <a href="/cryptocalc" title="Майнинг калькулятор">Майнинг калькулятор</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-xl-2 footer-links-list-block">
+                        <div class="rm-footer-title">
+                            Информация
+                        </div>
+                        <ul class="footer-links-list list-unstyled footer-list">
+                            <li><a href="https://ibmm.ru/news/kriptoindustriya/top-asici-miner-in-russia-2022" title="Топ асиков">Топ
+                                асиков</a></li>
+                            <li><a href="https://ibmm.ru/news/kriptoindustriya/luchshie-puly-dlya-mayninga" title="Топ майнинг пулов">Топ майнинг пулов</a></li>
+                            <li><a href="https://ibmm.ru/news/kriptoindustriya/luchshie-kriptokoshelki-v-rossii" title="Криптокошельки">Криптокошельки</a></li>
+                            <li><a href="https://ibmm.ru/news/kriptoindustriya/top-birzh-kriptovalyut" title="Биржи">Биржи</a></li>
+                            <li><a href="https://ibmm.ru/news/kriptoindustriya/kak-nachat-mining" title="Как начать майнить">Как начать
+                                майнить</a></li>
+                        </ul>
+                    </div>
+                </div><div class="row">
+                <nav class="custom-menu-nav-bottom">
+                    <div class="custom-menu-listing ">
+                        <div class="menu-title top_link">
+                            <a href="https://ibmm.ru/katalog" title="Купить оборудование для майнинга">Майнинг оборудование</a>
+                        </div>
+                        <ul class="list-unstyled custom-menu-list">
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/bitmain" title="Майнеры Antimainer купить">Bitmain Antminer</a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/canaan" title="Майнеры Avalon купить">
+                                    Canaan Avalon
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/innosilicon" title="Майнеры Innosilicon купить">
+                                    Innosilicon
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/whatsminer" title="Майнеры Whatsminer купить">
+                                    Whatsminer
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/goldshell" title="Майнеры Goldshell купить">
+                                    Goldshell
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/jasminer" title="Майнеры Jasminer купить">
+                                    Jasminer
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+                    <div class="custom-menu-listing">
+                        <div class="menu-title">
+                            Топ серверов
+                        </div>
+                        <ul class="list-unstyled custom-menu-list">
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/servernoe-oborudovanie/hp/hp-proliant/hpe-proliant-dl360-gen10" title="HPE ProLiant DL360 0 Gen10 купить">HPE ProLiant DL360 0 Gen10</a>
+
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/servernoe-oborudovanie/lenovo/server-thinksystem-lenovo/thinksystem-sr650" title="Lenovo ThinkSystem SR650 купить">Lenovo ThinkSystem SR650</a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/servernoe-oborudovanie/oracle/stoechnye-servery-oracle/oracle-sparc-m7-8" title="Oracle SPARC M7-8 купить">Oracle SPARC M7-8</a>
+
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/servernoe-oborudovanie/dell/servera-dell-poweredge/dell-poweredge-r740xd" title="Dell PowerEdge R740XD купить">Dell PowerEdge R740XD</a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/servernoe-oborudovanie/huawei/huawei-oceanstor/huawei-oceanstor-dorado-8000-v6" title="Huawei OceanStor Dorado 8000 V6 купить">Huawei OceanStor Dorado 8000 V6</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="custom-menu-listing custom-menu-list">
+                        <div class="menu-title">
+                            Добыча криптовалюты
+                        </div>
+                        <ul class="list-unstyled custom-menu-list">
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/crypto-btc">
+                                    Майнеры на Bitcoin
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/crypto-eth">
+                                    Майнеры на Etherium Classic
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/algoritm-scrypt">
+                                    Майнеры на Dogecoin и Litecoin
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/crypto-zec">
+                                    Майнеры на Zcash
+                                </a>
+                            </li>
+                            <li class="custom-menu-item">
+                                <a href="https://ibmm.ru/katalog/crypto-kda">
+                                    Майнеры на Kadena
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+                <div class="row footer-center">
+                    <div class="col-md-6 col-xl-4"> <form action="javascript:;" id="footer-subscribe" class="rm-footer-subscribe">
+                        <div class="input-group">
+                            <input type="email" id="InputSubscribeEmail" class="form-control rm-input-with-btn" name="email" placeholder="Введите ваш e-mail">
+                            <button type="submit" id="footer-make-subscribe" class="">Подписаться</button>
+                        </div>
+                        <div class="form-checkbox-group">
+                            <label>
+                                <input type="checkbox" checked="" class="rm-form-checkbox-input" name="agree" id="oct-scales-static">
+                                <span class="check-box"></span>
+                                Я согласен с условиями <a href="https://ibmm.ru/privacy/" target="_blank">Политика безопасности</a>
+                            </label>
+                        </div>
+                    </form>
+                        <script>
+                            $("#InputSubscribeEmail, #oct-scales-static").on("change paste keyup", function() {
+                                $(this).removeClass('error_style');
+                            });
+                            $('#footer-make-subscribe').on('click', function() {
+                                $.ajax({
+                                    type: 'post',
+                                    url:  'index.php?route=octemplates/module/oct_subscribe/makeSubscribe',
+                                    dataType: 'json',
+                                    cache: false,
+                                    data: $('#footer-subscribe').serialize(),
+                                    success: function(json) {
+                                        if (json['error']) {
+                                            $('#us-subscribe-modal .text-danger').remove();
+                                            let errorOption = '';
+
+                                            $.each(json['error'], function(i, val) {
+                                                $('#footer-subscribe [name="' + i + '"]').addClass('error_style');
+                                                errorOption += '<div class="alert-text-item">' + val + '</div>';
+                                            });
+
+                                            rmNotify('danger', errorOption);
+                                        } else {
+                                            if (json['output']) {
+                                                $('#footer-subscribe [name="email"]').val('');
+                                                rmNotify('success', '<div class="alert-text-item">' + json['output'] + '</div>');
+                                            }
+                                        }
+                                    }
+                                });
+                            });
+                        </script>
+                    </div>
+                    <div class="col-md-6 col-xl-6 footer-descriptor-second">У нас выгодное соотношение цены и качества, относительно
+                        конкурентов. Все ключевые сотрудники работают в компании более 4-х лет. К нам часто обращаются топовые
+                        компании для закупки майнинг оборудования в РФ.</div>
+                    <div class="col-md-12 col-xl-2">
+                        <div class="footer-soc-icons">
+                            <a href="https://t.me/ibmmru">
+                                <img loading="lazy" src="https://ibmm.ru/image/telegram.svg" height="20" width="20" alt="telegram ">
+                            </a>
+                            <a href="https://api.whatsapp.com/send?phone=+79060469278">
+                                <img loading="lazy" src="https://ibmm.ru/image/icons8-whatsapp (1).svg" height="22" width="22" alt="whatsapp ">
+                            </a>
+                            <a href="https://www.tiktok.com/@ibmm.ru">
+                                <img loading="lazy" src="https://ibmm.ru/image/tiktok-color-off.svg" height="23" width="23" alt="tiktok ">
+                            </a>
+                            <a href="https://vk.com/ibmmru">
+                                <img loading="lazy" src="https://ibmm.ru/image/icons8-vk.svg" height="25" width="25" alt="vk ">
+                            </a>
+                            <a href="https://www.youtube.com/channel/UCYjDWx-4uZGU-P8BFFe-Q1g">
+                                <img loading="lazy" src="https://ibmm.ru/image/youtube-color-off.svg" height="25" width="25" alt="youtube ">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row footer-bottom">
+                    <div class="">Copyright 2017-2022©</div>
+                    <div class=""><a href="https://ibmm.ru/privacy">Политика конфиденциальности</a></div>
+                    <div class=""><span class="footer-link" onclick="octPopupCallPhone();">Есть жалобы или предложения?</span></div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
